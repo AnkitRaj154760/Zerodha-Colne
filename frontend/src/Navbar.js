@@ -1,14 +1,14 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg border-bottom bg-white">
       <div className="container">
 
         {/* Logo */}
-        <a className="navbar-brand" href="/">
+        <Link className="navbar-brand" to="/">
           <img src="media/logo.svg" style={{ width: "120px" }} alt="Zerodha logo" />
-        </a>
+        </Link>
 
         {/* Mobile Toggle */}
         <button
@@ -25,30 +25,30 @@ function Navbar() {
           <ul className="navbar-nav ms-auto">
 
             <li className="nav-item">
-              <a className="nav-link active" href="#">Signup</a>
+              <Link className="nav-link active" to="/signup">Signup</Link>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link active" href="#">About</a>
+              <Link className="nav-link active" to="/about">About</Link>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link active" href="#">Products</a>
+              <Link className="nav-link active" to="/product">Products</Link>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link active" href="#">Pricing</a>
+              <Link className="nav-link active" to="pricing">Pricing</Link>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link active" href="#">Support</a>
+              <Link className="nav-link active" to="support">Support</Link>
             </li>
 
             {/* Menu icon */}
             <li className="nav-item">
-              <a className="nav-link active" href="#">
+              <Link className="nav-link active" href="#">
                 <i className="fa-solid fa-bars"></i>
-              </a>
+              </Link>
             </li>
 
           </ul>

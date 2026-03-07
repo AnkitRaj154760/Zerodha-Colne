@@ -14,14 +14,14 @@ import Footer from '../../Footer';
 function Homepage() {
     return ( 
         <>
-           <Navbar/>
+           
            <Hero/>
            <Awards/>
            <Stats/>
            <Pricing/>
            <Eduction/>
            <OpenAccount/>
-           <Footer/>
+           
         </>
      );
 }
