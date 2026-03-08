@@ -1,12 +1,20 @@
-import React from 'react';
-
-
+import React from "react";
 
 function Hero() {
-    return ( 
-        <h1>Hero</h1>
-     );
+  return (
+    <div className="container">
+        <div className="text-center mt-5 p-3">
+      <h1>Technology</h1>
+      <h3 className="text-muted mt-3 fs-4">Sleek, modern and intuitive trading platforms</h3>
+      <p className="mt-3">
+       
+        <a href="/" className="fw-semibold" style={{ textDecoration: "none" }}>
+          investment offerings <i className="fa-solid fa-arrow-right ms-2"></i>
+        </a>
+      </p>
+      </div>
+    </div>
+  );
 }
 
 export default Hero;
-
