@@ -32,4 +32,3 @@ function Rightsection({
 
 export default Rightsection;
 
-// this is only write for github streak maintainance
